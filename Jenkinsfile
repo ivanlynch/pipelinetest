@@ -7,9 +7,9 @@ pipeline {
 
   }
   stages {
-    stage('stage') {
+    stage('Build') {
       steps {
-        sh 'echo "Hola mundo"'
+        sh 'npm install'
       }
     }
 
